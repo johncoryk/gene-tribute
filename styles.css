@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  color: #363636;
+  background-color: #fffff5;
+}
+
+.top-bar {
+  height: 35px;
+  max-width: 100%;
+  background-color: #05366f;
+  margin: 0 auto;
+}
+
+#title {
+  font-family: proxima-nova, sans-serif;
+  font-size: 7rem;
+  margin: auto 0;
+  padding: 13px;
+  text-align: center;
+}
+
+#img-div {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  height: auto;
+  box-shadow: 2px 5px 10px 3px #484849;
+}
+
+#img-caption {
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0 20px 0;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.content-box {
+  background-color: #f0efeb;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 2px 5px 10px 3px #484849;
+  border-radius: 10px;
+}
+
+#info-head {
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#tribute-info {
+  font-family: 'PT Serif', serif;
+  line-height: 23px;
+}
+
+.bottom-bar {
+  margin: 0 auto;
+  height: 80px;
+  max-width: 100%;
+  background-color: #05366f;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#footer-info {
+  justify-self: center;
+  align-self: center;
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#footer-info a {
+  color: white;
+}
+
+#footer-info a:hover {
+  color: #484849;
+}
+
+@media (max-width: 651px) {
+  #image {
+    max-width: 400px;
+  }
+  #title {
+    line-height: 95px;
+  }
+}
+
+@media (max-width: 400px) {
+  #image {
+    max-width: 300px;
+  }
+  #img-caption {
+    font-size: 1.9rem;
+  }
+}
